@@ -54,23 +54,27 @@ public class SimpleChatbot {
 	                break;
 	            case "what is your name":
 	            case "what's your name":
-	            
 	                response = "I'm just a simple chatbot.";
 	                break;
 	            case "thank you!":
 	            	response=" You're welcome!";
 	            	break;
 	            case "tell me a joke":
-	            	response="Why don't scientists trust atoms? Because they make up everything!";
+	            	response="Why don't scientists trust atoms? Because they make up 
+                                  everything!";
 	            	break;
 	            case "how's the weather today":
 	            	response="I'm sorry, I can't provide real-time information like that.";
 	            	break;
 	            case "what is your favorite movie":
-	            	response="I'm just a bot, I don't watch movies. But I've heard good things about The Matrix.";
+	            	response="I'm just a bot, I don't watch movies. But I've heard good 
+                                  things about The Matrix.";
 	            	break;
 	            case "tell me some pickup lines":
-	            	response="Are you a magician? Because whenever I look at you, everyone else disappears."+"\nDo you have a name, or can I call you mine?"+"\nDo you have a Band-Aid? Because I just scraped my knee falling for you.";
+	            	response="Are you a magician? Because whenever I look at you, everyone 
+                                  else disappears."+"\nDo you have a name, or can I call you 
+                                  mine?"+"\nDo you have a Band-Aid? Because I just scraped my 
+                                  knee falling for you.";
 	            	break;
 	            case "i love you":
 	            	response="Aw, that's sweet! But I'm just a chatbot.";
@@ -85,11 +89,8 @@ public class SimpleChatbot {
 	            default:
 	                response = "Sorry, I don't understand that. Can you ask something else?";
 	        }
-	        return response;
-	    
+	        return response;   
 	}
-
-
 }
 
 
